@@ -24,6 +24,7 @@ dependencies {
     implementation("org.liquibase:liquibase-core:3.8.2")
     implementation("org.springdoc:springdoc-openapi-ui:1.5.2")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+    implementation("org.springframework.boot:spring-boot-starter-security:2.5.0")
     implementation(kotlin("stdlib-jdk8"))
     testImplementation("org.springframework.boot:spring-boot-starter-test:2.2.6.RELEASE")
 }
